@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lanchuang.wgc.webviewtest2.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/home1"
+        android:showAsAction="always"
+        android:title="设置"/>
+
+    <item
+        android:id="@+id/user_p"
+        android:showAsAction="always"
+        android:title=""/>
+    <item
+        android:id="@+id/write_p"
+        android:showAsAction="always"
+        android:title=""/>
+    <item
+        android:id="@+id/favo_p"
+        android:showAsAction="always"
+        android:title=""/>
+
+</menu>
+

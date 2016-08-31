@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lanchuang.wgc.webviewtest2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher003"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".test1"
+            android:icon="@drawable/ic_launcher1"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".test2"
+            android:icon="@drawable/ic_launcher2"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Test_11"
+            android:icon="@drawable/ic_launcher3"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Test_111"
+            android:icon="@drawable/ic_launcher4"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/edit3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="设置"
+        android:titleCondensed="设置"/>
+    <item
+        android:id="@+id/user_p"
+        android:icon="@drawable/user3"
+        android:showAsAction="never"
+        android:title="用户"
+        android:titleCondensed="用户"/>
+    <item
+        android:id="@+id/write_p"
+        android:icon="@drawable/send"
+        android:showAsAction="never"
+        android:title="发布"
+        android:titleCondensed="发布"/>
+    <item
+        android:id="@+id/favo_p"
+        android:icon="@drawable/star1"
+        android:showAsAction="never"
+        android:title="收藏"
+        android:titleCondensed="收藏"/>
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="always"
+        android:title="搜索"
+        android:titleCondensed="搜索"/>
+    <item
+        android:id="@+id/action_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="always"
+        android:title="分享"/>
+
+</menu>
